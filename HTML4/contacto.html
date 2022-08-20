@@ -19,6 +19,51 @@
         </ul>
     </nav>
 
+    <form action="" method="get">
+        <p>
+            <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+        </p>
+        <p>
+            <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+        </p>
+        <p>
+            <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        </p>
+        <p>
+            <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" placeholder="Edad" required value="18" min="18" max="50" step="2">
+        </p>
+
+            <p><label><input type="checkbox" name="edad15" value="15" checked> 15
+            Años</label></p>
+            <p><label><input type="checkbox" name="edad30" value="30" checked> 30
+            Años</label></p>
+            <p><label><input type="checkbox" name="edad45" value="45"> 45
+            Años</label></p>
+            <p><label><input type="checkbox" name="edad60" value="60"> 60
+            Años</label></p>
+
+
+            <p><label><input type="radio" name="edad" value="15" checked> 15
+                Años</label></p>
+                <p><label><input type="radio" name="edad" value="30"> 30
+                Años</label></p>
+                <p><label><input type="radio" name="edad" value="45"> 45
+                Años</label></p>
+                <p><label><input type="radio" name="edad" value="60"> 60
+                Años</label></p>
+
+
+            <p><input type="submit" value="Enviar"></p>
+            <p><input type="reset" value="Borrar"></p>
+        
+    </form>
+
+    
+
     <footer>
         <i class='bx bxl-facebook-circle bx-tada' style='color:#296fe4'  ></i>
         <i class='bx bxl-instagram-alt bx-tada' ></i>

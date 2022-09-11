@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+
+#primero{
+    border: 2px solid black;
+    width: 25%;
+    margin: 5px;
+ 
+    
+}
+#segundo{
+    border: 2px dotted blue;
+    width: 25%;
+    margin: 5px;
+    
+   
+}
+#tercero{
+    border: 2px double red;
+    width: 25%;
+    margin: 5px;
+   
+    
+   
+}
+
+
+footer{
+    
+    height: 56px;
+    background-color: cornflowerblue;
+    text-align: center;
+    
+}
